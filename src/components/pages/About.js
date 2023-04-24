@@ -8,5 +8,5 @@ export default function About() {
         This is where I will feature a section describing myself
       </p>
     </div>
-  )
+  );
 }
