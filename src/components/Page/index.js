@@ -1,21 +1,21 @@
-import React, { useState } from 'react';
-import NavTabs from './NavTabs';
-import Home from './pages/Home';
-import About from './pages/About';
-import Projects from './pages/Projects';
-import Contact from './pages/Contact';
+import React, { useState } from "react";
+import NavTabs from "../NavTabs";
+import Home from "../Home";
+import About from "../About";
+import Projects from "../Portfolio";
+import Contact from "../Contact";
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('Home');
+  const [currentPage, setCurrentPage] = useState("Home");
 
   const renderPage = () => {
-    if (currentPage === 'Home') {
+    if (currentPage === "Home") {
       return <Home />;
     }
-    if (currentPage === 'About') {
+    if (currentPage === "About") {
       return <About />;
     }
-    if (currentPage === 'Projects') {
+    if (currentPage === "Projects") {
       return <Projects />;
     }
     return <Contact />;
