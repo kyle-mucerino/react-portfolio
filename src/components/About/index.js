@@ -1,12 +1,16 @@
 import React from 'react';
 
-export default function About() {
+function About() {
   return (
-    <div>
-      <h1>About Page</h1>
+    <section className="my-5">
+      <div className="my-2">
+        <i class="fa-sharp fa-solid fa-user" style={{ fontSize: "96px" }}></i>
+      </div>
       <p>
-        This is where I will feature a section describing myself
+        This is where I will have a section of info about myself 
       </p>
-    </div>
+    </section>
   );
 }
+
+export default About;
