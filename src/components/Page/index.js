@@ -1,25 +1,35 @@
-import React, from "react";
-import PageContent from "../PageContent";
+import React, { useState } from "react";
 import About from "../About";
 import Resume from "../Resume";
-import Projects from "../Portfolio";
+import Portfolio from "../Portfolio";
 import Contact from "../Contact";
+import NavTabs from "../NavTabs";
 
-function Page({ currentPage }) {
+export default function Page() {
+  const [currentPage, setCurrentPage] = useState('Home');
+
   const renderPage = () => {
-    switch (currentPage.name) {
-      case 'about me':
-        return <About />;
-      case 'portfolio':
-        return <Portfolio />;
-      case 'contact':
-        return <Contact />;
-      case 'resume':
-        return <Resume />;
-      default:
-        return <About />;
+    if (currentPage === 'Home') {
+      return <Home />;
     }
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
+    }
+    return <Contact />;
   };
-}
 
-export default Page;
+  const handlePageChange = (page) => setCurrentPage(page);
+
+  return (
+    <div>
+      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderPage()}
+    </div>
+  );
+}

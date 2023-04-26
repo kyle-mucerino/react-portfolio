@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Col from 'react-boostrap/Col';
-import Form from 'react-bootstrap/Form';
-import InputGroup from 'react-boostrap/InputGroup';
-import Row from 'react-boostrap/Row';
-
+import React, { useState } from "react";
+import Button from "react-bootstrap/Button";
+import Col from "react-boostrap/Col";
+import Form from "react-bootstrap/Form";
+import InputGroup from "react-boostrap/InputGroup";
+import Row from "react-boostrap/Row";
 
 function Contact() {
   const [validated, setValidated] = useState(false);
@@ -50,3 +49,5 @@ function Contact() {
     </section>
   );
 }
+
+export default Contact;
