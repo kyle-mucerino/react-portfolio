@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { Col } from "react-boostrap/Col";
-import Form from "react-bootstrap/Form";
-import InputGroup from "react-boostrap/InputGroup";
-import Row from "react-boostrap/Row";
+import { Col } from "react-boostrap";
+import Form from "react-bootstrap";
+import InputGroup from "react-boostrap";
+import Row from "react-boostrap";
 
 function Contact() {
   const [validated, setValidated] = useState(false);
