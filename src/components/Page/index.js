@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import About from "../About";
-import Home from "../Home";
-import Resume from "../Resume";
-import Portfolio from "../Portfolio";
-import Contact from "../Contact";
+import About from "../About/index";
+import Home from "../Home/index";
+import Resume from "../Resume/index";
+import Portfolio from "../Portfolio/index";
+import Contact from "../Contact/index";
 import NavTabs from "../NavTabs";
 
 export default function Page() {
