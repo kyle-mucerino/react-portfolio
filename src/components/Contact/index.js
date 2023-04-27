@@ -25,7 +25,7 @@ function Contact() {
               required
               type="text"
               placeholder="Name"
-              defaultValue="Kyle"
+              defaultValue="First Last"
             />
             <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
           </Form.Group>
