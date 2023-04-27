@@ -1,5 +1,5 @@
 import React from 'react';
-//for some reason it can't read import './index.js';
+
 
 export default function Home() {
   return (

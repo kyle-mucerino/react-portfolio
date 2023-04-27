@@ -5,6 +5,8 @@ import Resume from "../Resume/index";
 import Portfolio from "../Portfolio/index";
 import Contact from "../Contact/index";
 import NavTabs from "../NavTabs";
+import Header from "../Header";
+import Footer from "../Footer";
 
 export default function Page() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -29,8 +31,10 @@ export default function Page() {
 
   return (
     <div>
+      <Header />
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+      <Footer />
     </div>
   );
 }
