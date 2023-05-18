@@ -1,4 +1,5 @@
 import React from "react";
+import '../Resume/resume.css';
 
 function Resume() {
   return (
@@ -15,8 +16,8 @@ function Resume() {
               Resume
             </a>
           </p>
-          <h2>Skills</h2>
-          <div className="list-group">
+          <p className="fst-italic">Skills acquired after completion of University of California, Irvine's Full Stack Web Development Boot Camp:</p>
+          <div className="button-container">
             <button
               type="button"
               className="list-group-item list-group-item-action"
