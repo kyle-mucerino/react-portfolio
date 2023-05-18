@@ -5,9 +5,8 @@ export default function Projects() {
     <div>
       <h1>Projects</h1>
       <p>
-        {" "}
         Check out a recent project I've completed!{" "}
-        <a href="https://blooming-chamber-09680.herokuapp.com/"></a>
+        <a href="https://blooming-chamber-09680.herokuapp.com/" target="_blank" rel="noopener noreferrer">Movie Review</a>
       </p>
     </div>
   );

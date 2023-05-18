@@ -1,29 +1,79 @@
-import React from 'react';
+import React from "react";
 import { BsCaretRightFill } from "react-icons/bs";
-
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import '../Footer/footer.css';
 
 function Footer() {
   const icons = [
     {
-      name: "fab fa-github",
+      icon: FaGithub,
       link: "https://github.com/kyle-mucerino"
     },
     {
-      name: 'fab fa-linkedin',
-      link: 'https://www.linkedin.com/in/kyle-mucerino-95b112184/'
+      icon: FaLinkedin,
+      link: "https://www.linkedin.com/in/kyle-mucerino-95b112184/"
     }
-  ]
+  ];
 
   return (
-    <footer className="flex-row space between px-1">
-      {icons.map((icon) => (
-        <div key={icon.name}>
-          <BsCaretRightFill />
-          <a href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer">
-            <i className={icon.name} onClick={() => window.open(icon.link, "_blank")}></i>
-          </a>
-        </div>
-      ))}
+    <footer
+      style={{
+        backgroundColor: "#f2f2f2",
+        padding: "20px",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        textAlign: "center"
+      }}
+    >
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          marginBottom: "10px"
+        }}
+      >
+        <BsCaretRightFill style={{ color: "black", fontSize: "30px", marginRight: "10px" }} />
+        <span
+          style={{ color: "black", fontSize: "20px", fontWeight: "bold", lineHeight: "30px" }}
+        >
+          Connect with Me:
+        </span>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center"
+        }}
+      >
+        {icons.map((icon, index) => {
+          const IconComponent = icon.icon;
+
+          return (
+            <a
+              key={index}
+              href={icon.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                margin: "0 10px",
+                transition: "0.3s"
+              }}
+            >
+              <IconComponent
+                style={{ fontSize: "30px" }}
+                className="social-icon"
+              />
+            </a>
+          );
+        })}
+      </div>
     </footer>
   );
 }
