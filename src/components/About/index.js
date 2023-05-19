@@ -56,7 +56,7 @@ function About() {
                     Recife, Brazil performing many of the same duties including
                     expanding and teaching the game of American football throughout
                     Brazil. Upon arriving back to California, I decided to enroll in the
-                    Univrsity of California, Irvine's Full-Stack Web Developement Boot
+                    University of California, Irvine's Full-Stack Web Developement Boot
                     Camp which I completed in May 2023. 
                   </p>
                 </div>

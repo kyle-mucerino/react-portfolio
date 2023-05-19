@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import '../../components/Home/home.css';
 
 export default function Home() {
   const [isTextVisible, setTextVisible] = useState(false);
@@ -13,14 +14,14 @@ export default function Home() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "50vh"
+        height: "70vh"
       }}
     >
       <div style={{ maxWidth: "600px", padding: "20px" }}>
         <h1
           className={`fs-1 badge bg-primary text-wrap position-relative ${
             isTextVisible ? "d-none" : ""
-          }`}
+          } my-custom-badge`}
           style={{
             width: "14rem",
             marginBottom: "20px",
@@ -37,7 +38,10 @@ export default function Home() {
                 fontSize: "10px",
                 background: "rgba(255, 255, 255, 0.8)",
                 padding: "1px",
-                borderRadius: "4px"
+                borderRadius: "4px",
+                font: "Futura, sans-serif",
+                color: "black",
+                width: "54px"
               }}
             >
               (click me)
@@ -45,7 +49,12 @@ export default function Home() {
           )}
         </h1>
         {isTextVisible && (
-          <p>
+          <p
+            style={{
+              fontSize: "24px",
+              fontFamily: "Futura, sans-serif"
+            }}
+          >
             Welcome to my professional portfolio! Please navigate around and
             find information about myself, ways to get in contact, and previous
             projects I have worked on. Thank you for taking the time out of your
