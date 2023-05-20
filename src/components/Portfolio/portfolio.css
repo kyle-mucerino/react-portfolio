@@ -1,0 +1,26 @@
+.project-card-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-card {
+  width: 40%;
+  margin-bottom: 50px;
+  background-color: #f1f1f1;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+.project-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.project-info {
+  padding: 20px;
+}
+
+.project-card .project-info .view-project-btn {
+  color: black;
+  background-color: #0d6efd;
+}
