@@ -1,6 +1,6 @@
 import React from "react";
 import movieReview from "../../assets/movieReview.png";
-import babeProfile from "../../assets/BabeProfile.png";
+import babeProfile from "../../assets/BabeProfile2.png";
 import "./portfolio.css";
 
 export default function Projects() {
