@@ -47,7 +47,7 @@ export default function Projects() {
             <p>
               Former NFL quarterback Babe Laufenberg's{" "}
               <a
-                href="https://babelaufenberg.com/"
+                href="https://kyle-mucerino.github.io/profilebabe/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -55,7 +55,7 @@ export default function Projects() {
               </a>
             </p>
             <a
-              href="https://babelaufenberg.com/"
+              href="https://kyle-mucerino.github.io/profilebabe/"
               target="_blank"
               rel="noopener noreferrer"
               className="btn view-project-btn"
