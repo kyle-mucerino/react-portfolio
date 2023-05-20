@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 node_modules
+=======
+/node_modules
+.DS_Store
+.env.local
+.env.development.local
+.env.production.local
+>>>>>>> b1e16310e76129f2e2aeac9160753baf45eb4f2a
