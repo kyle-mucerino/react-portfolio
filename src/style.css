@@ -1,7 +1,0 @@
-:root {
-  --bs-primary: #0d6efd;
-}
-
- .--bs-primary {
-  color: var(--bs-primary);
- }
