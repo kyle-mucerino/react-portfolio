@@ -16,8 +16,8 @@ function Resume() {
               Resume
             </a>
           </p>
-          <p className="fst-italic">Skills acquired after completion of University of California, Irvine's Full Stack Web Development Boot Camp:</p>
-          <div className="button-container">
+          <p className="fst-italic">Skills acquired through completion of University of California, Irvine's Full Stack Web Development Boot Camp:</p>
+          <div className="button-container" style={{ marginBottom: "100px" }}>
             <button
               type="button"
               className="list-group-item list-group-item-action"
