@@ -24,19 +24,18 @@ function Contact() {
               type="text"
               placeholder="Name"
               aria-describedby="inputGroupPrepend"
-              style={{ width: "200px", marginBottom: "10px" }}
+              style={{ width: "300px", marginBottom: "10px" }}
             />
             <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
           </Form.Group>
           <Form.Group controlId="validationEmail">
             <Form.Label>Email</Form.Label>
-            <InputGroup hasValidation>
+            <InputGroup hasValidation style={{ width: "300px" }}>
               <Form.Control
                 type="text"
                 placeholder="Email"
                 aria-describedby="inputGroupPrepend"
                 required
-                style={{ width: "200px", marginBottom: "10px" }}
                 className="form-control"
               />
               <Form.Control.Feedback type="invalid">
@@ -44,7 +43,7 @@ function Contact() {
               </Form.Control.Feedback>
             </InputGroup>
           </Form.Group>
-          <div style={{ marginTop: "10px", marginBottom: "10px" }}>
+          <div style={{ marginTop: "10px", marginBottom: "300px" }}>
             <button className="btn btn-primary" type="submit">
               Submit
             </button>
