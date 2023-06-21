@@ -9,14 +9,17 @@ function Resume() {
           <p>
             Click to see my{" "}
             <a
-              href="https://drive.google.com/file/d/186ZTQvzw0S14SJmN2e6yAa_SDTXiCTwX/view?usp=share_link"
+              href="https://drive.google.com/file/d/1BHtBZnxAdHSDFhC56Ripa6fWUIywM9tr/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
               Resume
             </a>
           </p>
-          <p className="fst-italic">Skills acquired through completion of University of California, Irvine's Full Stack Web Development Boot Camp:</p>
+          <p className="fst-italic">
+            Skills acquired through completion of University of California,
+            Irvine's Full Stack Web Development Boot Camp:
+          </p>
           <div className="button-container" style={{ marginBottom: "100px" }}>
             <button
               type="button"
