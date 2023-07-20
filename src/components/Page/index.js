@@ -3,7 +3,7 @@ import About from "../About/index";
 import Home from "../Home/index";
 import Resume from "../Resume/index";
 import Portfolio from "../Portfolio/index";
-import Contact from "../Contact/index";
+//import Contact from "../Contact/index";
 import NavTabs from "../NavTabs";
 import Header from "../Header";
 import Footer from "../Footer";
@@ -24,7 +24,7 @@ export default function Page() {
     if (currentPage === 'Resume') {
       return <Resume />;
     }
-    return <Contact />;
+    //return <Contact />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
