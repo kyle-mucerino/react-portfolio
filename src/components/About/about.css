@@ -21,4 +21,11 @@
   font-family: "Futura", sans-serif;
 }
 
+@media screen and (max-width: 360px) {
+  .project-card {
+    flex-basis: calc(50% - 10%); 
+    margin: 1%; 
+  }
+}
+
 
