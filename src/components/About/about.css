@@ -2,16 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  min-height: 100vh; /* Use min-height instead of height */
 }
 
 .card {
   border: 10px solid #ccc;
   padding: 20px;
   margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
 }
 
@@ -21,11 +18,13 @@
   font-family: "Futura", sans-serif;
 }
 
-@media screen and (max-width: 360px) {
-  .project-card {
-    flex-basis: calc(50% - 10%); 
-    margin: 1%; 
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+  .about-container {
+    padding: 20px; /* Add padding to the container */
+  }
+
+  .card {
+    border-width: 5px; /* Reduce border width for mobile */
   }
 }
-
-
