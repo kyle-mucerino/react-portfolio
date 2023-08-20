@@ -47,9 +47,7 @@ export default function Projects() {
           />
           <div className="project-info">
             <h2>Mortgage Calculator</h2>
-            <p>
-              An API integrated Mortgage Calculator{" "}
-            </p>
+            <p>An API integrated Mortgage Calculator </p>
             <a
               href="https://mortgage-calculator-2d0e477c8d36.herokuapp.com/"
               target="_blank"
@@ -68,11 +66,9 @@ export default function Projects() {
           />
           <div className="project-info">
             <h2>Find a Workout</h2>
-            <p>
-              An API integrated random workout generator{" "}
-            </p>
+            <p>An API integrated random workout generator </p>
             <a
-              href="https://dashboard.heroku.com/apps/random-workout"
+              href="https://random-workout-093c17b35175.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="btn view-project-btn"
