@@ -39,7 +39,7 @@ export default function Projects() {
             </a>
           </div>
         </div>
-        <div className="project-card">
+        {/* <div className="project-card">
           <img
             src={DKCalcSS}
             alt="mortgagte calc screenshot"
@@ -76,7 +76,7 @@ export default function Projects() {
               View App
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
