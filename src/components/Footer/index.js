@@ -18,7 +18,6 @@ function Footer() {
   return (
     <footer
       style={{
-        backgroundColor: "#f2f2f2",
         padding: "20px",
         display: "flex",
         flexDirection: "column",
@@ -31,8 +30,7 @@ function Footer() {
         style={{
           display: "flex",
           alignItems: "center",
-          justifyContent: "center",
-          marginBottom: "10px"
+          justifyContent: "center"
         }}
       >
         <BsCaretRightFill style={{ color: "black", fontSize: "30px", marginRight: "10px" }} />

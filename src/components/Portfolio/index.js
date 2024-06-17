@@ -3,6 +3,7 @@ import babeProfile from "../../assets/BabeProfile2.png";
 import DKCalcSS from '../../assets/DKCalcSS.png';
 import RWSS from '../../assets/RWSS.png';
 import "./portfolio.css";
+import CIDT from '../../assets/CIDT.png';
 
 export default function Projects() {
   return (
@@ -39,44 +40,25 @@ export default function Projects() {
             </a>
           </div>
         </div>
-        {/* <div className="project-card">
+        <div className="project-card">
           <img
-            src={DKCalcSS}
-            alt="mortgagte calc screenshot"
+            src={CIDT}
+            alt="CITD screenshot"
             className="project-image"
           />
           <div className="project-info">
-            <h2>Mortgage Calculator</h2>
-            <p>An API integrated Mortgage Calculator </p>
+            <h2>Crossing I's Dotting T's</h2>
+            <p>CITD band website</p>
             <a
-              href="https://mortgage-calculator-2d0e477c8d36.herokuapp.com/"
+              href="https://cidt-44ee6451003d.herokuapp.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="btn view-project-btn"
             >
-              View App
+              View Site
             </a>
           </div>
         </div>
-        <div className="project-card">
-          <img
-            src={RWSS}
-            alt="random workout screenshot"
-            className="project-image"
-          />
-          <div className="project-info">
-            <h2>Find a Workout</h2>
-            <p>An API integrated random workout generator </p>
-            <a
-              href="https://random-workout-093c17b35175.herokuapp.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn view-project-btn"
-            >
-              View App
-            </a>
-          </div>
-        </div> */}
       </div>
     </div>
   );

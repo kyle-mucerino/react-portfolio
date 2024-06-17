@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.e7fd9ace.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.dfca55dd.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.dfca55dd.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.e7e0da85.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.e7e0da85.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.54093e86.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.54093e86.js.map",
     "static/css/2.658f83d5.chunk.css": "/react-portfolio/static/css/2.658f83d5.chunk.css",
@@ -13,6 +13,7 @@
     "static/css/main.e7fd9ace.chunk.css.map": "/react-portfolio/static/css/main.e7fd9ace.chunk.css.map",
     "static/js/2.e2087311.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.e2087311.chunk.js.LICENSE.txt",
     "static/media/BabeProfile2.9471d415.png": "/react-portfolio/static/media/BabeProfile2.9471d415.png",
+    "static/media/CIDT.2da83060.png": "/react-portfolio/static/media/CIDT.2da83060.png",
     "static/media/DKCalcSS.9c9c1e4f.png": "/react-portfolio/static/media/DKCalcSS.9c9c1e4f.png",
     "static/media/RWSS.dcfe3b87.png": "/react-portfolio/static/media/RWSS.dcfe3b87.png"
   },
@@ -21,6 +22,6 @@
     "static/css/2.658f83d5.chunk.css",
     "static/js/2.e2087311.chunk.js",
     "static/css/main.e7fd9ace.chunk.css",
-    "static/js/main.dfca55dd.chunk.js"
+    "static/js/main.e7e0da85.chunk.js"
   ]
 }

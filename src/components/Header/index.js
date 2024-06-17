@@ -6,7 +6,7 @@ function Header(props) {
   };
 
   return (
-    <header className="flex-row space between px-1">
+    <header className="flex-row">
       <h1 style={headerStyle}>Kyle Mucerino's Professional Portfolio</h1>
     </header>
   );
